@@ -1,0 +1,20 @@
+{>"layouts/master" /}
+
+{<body}
+    <h1>{@pre type="content" key="greeting"/}</h1>
+<div class="row">
+  <div class="col-md-4">
+ <div>
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {@pre type="content" key="greeting1"/}
+  </button>
+
+</div>
+ </div>
+
+  </div>
+  <div class="col-md-4">{@pre type="content" key="greeting2"/}</div>
+</div>
+
+{/body}
